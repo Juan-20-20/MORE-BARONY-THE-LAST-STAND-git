@@ -1,0 +1,19 @@
+# spider limbs file
+# defines key model offset values
+# lines beginning with pound character are a comment
+# blank lines are ignored
+
+# head
+0 -3 0 -1
+
+# right pedipalp
+1 1 0 1
+
+# left pedipalp
+2 1 0 1
+
+# first leg segment ("thigh")
+3 1 0 -1
+
+# second leg segment ("shin")
+4 3 0 0

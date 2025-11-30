@@ -1,0 +1,23 @@
+# devil limbs file
+# defines key model offset values
+# lines beginning with pound character are a comment
+# blank lines are ignored
+# 1: Part Number 2: Fwd/Back 3: Left/Right 4: Up/Down
+
+# torso
+0 0 0 0
+
+# head
+1 2.5 0 -4
+
+# right bicep
+2 0 17 5
+
+# right forearm
+3 0 19 24
+
+# left bicep
+4 0 -17 5
+
+# left forearm
+5 0 -19 24

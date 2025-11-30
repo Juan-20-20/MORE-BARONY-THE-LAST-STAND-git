@@ -1,0 +1,814 @@
+{
+  "version": 1,
+  "comment": "Add item position offsets here.",
+  "base_offsets": 
+  {
+	"focalx": 0.0,
+	"focaly": 0.25,
+	"focalz": 0.0
+  },
+  "items": [
+    {
+      "mask_bandit": {
+        "models": [],
+        "focalx": 0.5,
+        "focaly": -2.5,
+        "focalz": 0.0,
+        "rotation": 1,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [],
+			"scalex": 0.0,
+			"scaley": 0.0,
+			"scalez": 0.0
+		},
+		{
+			"helm_sprite": [1274, 1275],
+			"focalx": 0.0,
+			"focaly": -0.02,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+	{
+      "mask_bandit": {
+        "models": [1249],
+        "focalx": 1.5,
+        "focaly": -0.5,
+        "focalz": -0.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": false
+      }
+    },
+	{
+      "mask_bandit": {
+        "models": [1251],
+        "focalx": 1.75,
+        "focaly": -0.5,
+        "focalz": -1.0,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": false
+      }
+    },
+    {
+      "mask_eyepatch": {
+        "models": [],
+        "focalx": 0.55,
+        "focaly": -1.25,
+        "focalz": -2.0,
+        "rotation": 0,
+		"limbs_index": 10
+      }
+    },
+    {
+      "mask_masquerade": {
+        "models": [],
+        "focalx": 0.75,
+        "focaly": -0.5,
+        "focalz": -2.25,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+	{
+      "mask_mouth_rose": {
+        "models": [],
+        "focalx": 1.25,
+        "focaly": -0.75,
+        "focalz": -0.5,
+        "rotation": 1,
+		"limbs_index": 10
+      }
+    },
+	{
+      "mask_marigold": {
+        "models": [],
+        "focalx": 1.25,
+        "focaly": -0.75,
+        "focalz": -0.5,
+        "rotation": 1,
+		"limbs_index": 10
+      }
+    },
+	{
+      "tool_blindfold_telepathy": {
+        "models": [],
+        "focalx": 0.25,
+        "focaly": -2.5,
+        "focalz": 0.0,
+        "rotation": 1,
+		"limbs_index": 10
+      }
+    },	
+    {
+      "mask_golden": {
+        "models": [],
+        "focalx": 1.05,
+        "focaly": -0.5,
+        "focalz": -1.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focalx": 0.275,
+			"focaly": 0.0,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+    {
+      "mask_spooky": {
+        "models": [],
+        "focalx": 0.55,
+        "focaly": -0.5,
+        "focalz": -1.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [1274, 1275, 1276, 1277, 1278, 1279],
+			"focaly": 0.0,
+			"scalex": 0.01,
+			"scaley": 0.01,
+			"scalez": 0.01
+		},
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focaly": 0.0,
+			"scalex": 0.01,
+			"scaley": 0.01,
+			"scalez": 0.01
+		},
+		{
+			"helm_sprite": [41],
+			"focalx": 0.02,
+			"scalex": 0.0001,
+			"scaley": 0.0001,
+			"scalez": 0.0001
+		},
+		{
+			"helm_sprite": [42],
+			"focalx": 0.025,
+			"scalex": 0.0001,
+			"scaley": 0.0001,
+			"scalez": 0.0001
+		}
+		]
+      }
+    },
+    {
+      "mask_tech_goggles": {
+        "models": [],
+        "focalx": 0.5,
+        "focaly": -2.5,
+        "focalz": 0.0,
+        "rotation": 1,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+    {
+      "mask_hazard_goggles": {
+        "models": [],
+       "focalx": 0.25,
+        "focaly": -2.5,
+        "focalz": 0.0,
+        "rotation": 1,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+    {
+      "mask_phantom": {
+        "models": [],
+        "focalx": 1.25,
+        "focaly": -0.5,
+        "focalz": -1.95,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+    {
+      "mask_pipe": {
+        "models": [],
+        "focalx": 2,
+        "focaly": -1.0,
+        "focalz": -0.5,
+        "rotation": 0.05,
+		"limbs_index": 10
+      }
+    },
+    {
+      "mask_grass_sprig": {
+        "models": [],
+        "focalx": 2.0,
+        "focaly": -0.5,
+        "focalz": 0.5,
+        "rotation": 1,
+		"limbs_index": 10
+      }
+    },
+    {
+      "mask_plague": {
+        "models": [],
+        "focalx": 1.76,
+        "focaly": -0.5,
+        "focalz": -1.25,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+    {
+      "mask_mouthknife": {
+        "models": [],
+        "focalx": 1.25,
+        "focaly": -1.0,
+        "focalz": 0.5,
+        "rotation": 1,
+		"limbs_index": 10
+      }
+    },
+    {
+      "hat_silken_bow": {
+        "models": [],
+        "focalx": -1.75,
+        "focaly": -0.25,
+        "focalz": -0.25,
+        "rotation": 0,
+		"limbs_index": 9
+      }
+    },
+    {
+      "hat_plumed_cap": {
+        "models": [],
+        "focalx": -0.25,
+        "focaly": -3.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		},
+		{
+			"mask_sprite": [1257, 1258, 1259, 1250],
+			"scalex": -0.03,
+			"scaley": -0.03,
+			"scalez": -0.03
+		}
+		]
+      }
+    },
+	{
+      "hat_plumed_cap": {
+        "models": [1268],
+        "focalx": -0.25,
+        "focaly": -4.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		},
+		{
+			"mask_sprite": [1257, 1258, 1259, 1250],
+			"scalex": -0.03,
+			"scaley": -0.03,
+			"scalez": -0.03
+		}
+		]
+      }
+    },
+    {
+      "hat_bycocket": {
+        "models": [],
+        "focalx": 0.25,
+        "focaly": -3.5,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [],
+			"focalx": 0.0,
+			"focaly": -0.05,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+    {
+      "hat_tophat": {
+        "models": [],
+        "focalx": 0.0,
+        "focaly": -4.25,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true
+      }
+    },
+    {
+      "hat_bandana": {
+        "models": [1274],
+        "focalx": -1.0,
+        "focaly": -2.5,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+	{
+      "hat_bandana": {
+        "models": [1275],
+        "focalx": -0.25,
+        "focaly": -1.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+    {
+      "hat_circlet": {
+        "models": [],
+        "focalx": -0.5,
+        "focaly": -3.25,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+	{
+      "hat_circlet_wisdom": {
+        "models": [],
+        "focalx": -0.5,
+        "focaly": -3.25,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+    {
+      "hat_crown": {
+        "models": [],
+		"focalx": -0.25,
+        "focaly": -4.0,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+    {
+      "hat_laurels": {
+        "models": [],
+        "focalx": -0.5,
+        "focaly": -3.5,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		},
+		{
+			"mask_sprite": [1257, 1258, 1259, 1250],
+			"scalex": -0.03,
+			"scaley": -0.03,
+			"scalez": -0.03
+		}
+		]
+      }
+    },
+    {
+      "hat_turban": {
+        "models": [],
+        "focalx": -0.5,
+        "focaly": -4.0,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+    {
+      "hat_crowned_helm": {
+        "models": [],
+        "focalx": 0.0,
+        "focaly": -2.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1301, 1302, 1303, 1304, 1305, 1306, 1307, 1255, 1256],
+			"scalex": -0.04,
+			"scaley": -0.04,
+			"scalez": -0.04
+		}
+		]
+      }
+    },
+    {
+      "hat_warm": {
+        "models": [1285, 1286],
+        "focalx": -0.25,
+        "focaly": -2.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1253],
+			"focaly": -0.25
+		}
+		]
+      }
+    },
+	{
+      "hat_warm": {
+        "models": [1287],
+        "focalx": -0.5,
+        "focaly": -3.5,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true
+      }
+    },
+    {
+      "hat_wolf_hood": {
+        "models": [],
+        "focalx": 0.25,
+        "focaly": -3.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1253],
+			"focaly": -0.3
+		}
+		]
+      }
+    },
+    {
+      "hat_bear_hood": {
+        "models": [],
+        "focalx": -0,
+        "focaly": -3.25,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1253],
+			"focaly": -0.3
+		}
+		]
+      }
+    },
+    {
+      "hat_stag_hood": {
+        "models": [],
+        "focalx": 0.25,
+        "focaly": -4.0,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1253],
+			"focaly": -0.3
+		}
+		]
+      }
+    },
+    {
+      "hat_bunny_hood": {
+        "models": [],
+        "focalx": -0.25,
+        "focaly": -3.525,
+        "focalz": 2.3,
+		"scalex": 0.00,
+		"scaley": 0.1,
+		"scalez": 0.02,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true
+      }
+    },
+    {
+      "hat_bountyhunter": {
+        "models": [],
+        "focalx": -0.25,
+        "focaly": -3.75,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1255],
+			"focaly": -0.3
+		},
+		{
+			"mask_sprite": [1256],
+			"focaly": -0.3
+		}
+		]
+      }
+    },
+    {
+      "hat_miter": {
+        "models": [],
+        "focalx": -0.75,
+        "focaly": -4.5,
+        "focalz": 2.25,
+        "rotation": 1,
+		"pitch": -0.05,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [],
+			"focalx": 0.0,
+			"focaly": -0.05,
+			"focalz": 0.0
+		},
+		{
+			"mask_sprite": [1256],
+			"focalx": 0.0,
+			"focaly": -0.05,
+			"focalz": 0.0,
+			"scalex": -0.05
+		},
+		{
+			"mask_sprite": [1255],
+			"focalx": 0.0,
+			"focaly": -0.05,
+			"focalz": 0.0,
+			"scalex": -0.05
+		}
+		]
+      }
+    },
+    {
+      "hat_headdress": {
+        "models": [],
+        "focalx": -0.75,
+        "focaly": -3.25,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true
+      }
+    },
+	  {
+      "hat_headdress": {
+        "models": [1297],
+        "focalx": -0.75,
+        "focaly": -3.0,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true
+      }
+    },
+    {
+      "hat_chef": {
+        "models": [],
+        "focalx": -0.75,
+        "focaly": -4.25,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9
+      }
+    },
+    {
+      "helm_mining": {
+        "models": [],
+        "focalx": 0,
+        "focaly": -4,
+        "focalz": 2.25,
+        "rotation": 1,
+		"limbs_index": 9,
+		"expand_to_fit_oversize_mask": true,
+		"adjust_on_oversize_mask": [
+		{
+			"mask_sprite": [1255],
+			"focaly": -0.05
+		},
+		{
+			"mask_sprite": [1256],
+			"focaly": -0.05
+		},
+		{
+			"mask_sprite": [1253],
+			"focaly": -0.05
+		}
+		]
+      }
+    },
+    {
+      "mask_steel_visor": {
+        "models": [],
+        "focalx": 0.75,
+        "focaly": -0.5,
+        "focalz": -1.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+	{
+      "mask_steel_visor": {
+        "models": [1303],
+        "focalx": 1.0,
+        "focaly": -0.5,
+        "focalz": -1.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true
+      }
+    },
+	{
+      "mask_steel_visor": {
+        "models": [1302],
+        "focalx": 1.25,
+        "focaly": -0.5,
+        "focalz": -1.5	,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focalx": 0.25,
+			"focaly": 0.0,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+	{
+      "mask_steel_visor": {
+        "models": [1304],
+        "focalx": 1.0,
+        "focaly": -0.5,
+        "focalz": -1.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focalx": 0.5,
+			"focaly": 0.0,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+	{
+      "mask_steel_visor": {
+        "models": [1305],
+        "focalx": 1.75,
+        "focaly": -0.5,
+        "focalz": -1.5,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focalx": 0.25,
+			"focaly": 0.0,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+    {
+      "mask_crystal_visor": {
+        "models": [],
+        "focalx": 0.75,
+        "focaly": -0.5,
+        "focalz": -1.25,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focalx": 0.25,
+			"focaly": 0.0,
+			"focalz": 0.0
+		}
+		]
+      }
+    },
+    {
+      "mask_artifact_visor": {
+        "models": [],
+        "focalx": 0.75,
+        "focaly": -0.5,
+        "focalz": -1.25,
+        "rotation": 0,
+		"limbs_index": 10,
+		"oversize_mask": true,
+		"adjust_on_expand_helm": [
+		{
+			"helm_sprite": [311, 312, 313, 486, 507, 1284],
+			"focalx": 0.25,
+			"focaly": 0.0,
+			"focalz": 0.0
+		}
+		]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# lich limbs file
+# defines key model offset values
+# lines beginning with pound character are a comment
+# blank lines are ignored
+# 1: Part Number 2: Fwd/Back 3: Left/Right 4: Up/Down
+
+# body
+0 -0.75 0 0
+
+# right arm
+1 0 0 2
+
+# left arm
+2 0 0 2
+
+# head
+3 1.5 0 -2.5
