@@ -1,0 +1,37 @@
+# skeleton limbs file
+# defines key model offset values
+# lines beginning with pound character are a comment
+# blank lines are ignored
+
+# head
+0 0 0 -1.5
+
+# torso
+1 0 0 0
+
+# right leg
+2 0 0 2
+
+# left leg
+3 0 0 2
+
+# right arm
+4 0 0 2
+
+# left arm
+5 0 0 2
+
+# world weapon
+6 2.2 0 0
+
+# shield
+7 2.5 .5 0
+
+# cloak
+8 0 0.25 3.65
+
+# helmet
+9 0 0 -1.75
+
+# mask
+10 0 0.5 .5
